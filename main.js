@@ -1,12 +1,12 @@
 // array is a collection of diffrent datatypes or elements
 let arraysData = [25,"PRavven" ,true,]
-let showArrays =  document.getElementById("showData");
-let showDataIndex =  document.getElementById("showDataIndex");
-showArrays.innerHTML = arraysData;
+document.getElementById("showData").innerHTML = arraysData;
+document.getElementById("showDataIndex0").innerHTML = arraysData[0];
+document.getElementById("showDataIndex02").innerHTML = arraysData[1];
 
 
-let findValueUsingIndex = arraysData[0];  //this give result that is String Praveen
-showArrays.innerHTML = findValueUsingIndex;
 
-let showDataIndexVal = arraysData[1];  //this give result that is String Praveen
-showDataIndex.innerHTML = showDataIndexVal;
+let createArrObject =  new Array(1,2,3,true,"Praveen");
+document.getElementById("showDataIndex03").innerHTML = createArrObject;
+console.log(typeof  createArrObject)
+
