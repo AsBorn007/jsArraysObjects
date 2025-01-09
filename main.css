@@ -1,0 +1,12 @@
+#showData{
+    margin: 12px auto;
+    box-shadow: 0 0 15px 0 royalblue;
+    width: 60%;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid rgb(180, 157, 157);
+    background: royalblue;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20px;
+}
